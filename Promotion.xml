@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Promotions>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Category_P_1In_2Ex</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>Category promo</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>CategoryLevelPercentDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>Promo short desc</ShortDescription>
+      <LongDescription>&lt;p&gt;Promo Long desc&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>CategoryLevelPercentDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <ExcludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>18805050</Identifier>
+        </Data>
+      </ExcludeCatalogEntryIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelPercentOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <Percentage>20</Percentage>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <ExcludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>59994919</Identifier>
+        </Data>
+      </ExcludeCatalogEntryIdentifier>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>mens-apparel</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Category_P_2In_1Ex</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>many included 1 excluded</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>CategoryLevelPercentDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short desc </ShortDescription>
+      <LongDescription>&lt;p&gt;Long desc&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>CategoryLevelPercentDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelPercentOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <Percentage>25</Percentage>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>mens-apparel_pants</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+      <ExcludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>81307785</Identifier>
+        </Data>
+      </ExcludeCatalogEntryIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>mens-apparel_suit-separates</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Category_A_1In_2Ex</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>Amount category promo</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>CategoryLevelValueDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short amount</ShortDescription>
+      <LongDescription>&lt;p&gt;long amount&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>CategoryLevelValueDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <ExcludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>59994919-100</Identifier>
+        </Data>
+      </ExcludeCatalogEntryIdentifier>
+      <ExcludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>18805050-100</Identifier>
+        </Data>
+      </ExcludeCatalogEntryIdentifier>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>mens-apparel</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelFixedAmountOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <AmountOff>30</AmountOff>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Category_A_2In_1Ex</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>amount 2 Included</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>CategoryLevelValueDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short amount 2</ShortDescription>
+      <LongDescription>&lt;p&gt;Long desc 2&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>CategoryLevelValueDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <DiscountRange>
+        <SubType>ProductLevelFixedAmountOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <AmountOff>40</AmountOff>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>fragrance</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>home-ck</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+      <ExcludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>44029190</Identifier>
+        </Data>
+      </ExcludeCatalogEntryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Catentry_P_1In</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>catalog one included</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>ProductLevelPercentDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short promo per</ShortDescription>
+      <LongDescription>&lt;p&gt;long promo per&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>ProductLevelPercentDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <CatalogEntryAttributeRuleCaseSensitive>false</CatalogEntryAttributeRuleCaseSensitive>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>51001533</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelPercentOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <Percentage>20</Percentage>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Catentry_P_2In</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>catalog perc 2</Comments>
+    <Priority>0</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>ProductLevelPercentDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short perc 2</ShortDescription>
+      <LongDescription>&lt;p&gt;long perc 2&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>ProductLevelPercentDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <CatalogEntryAttributeRuleCaseSensitive>false</CatalogEntryAttributeRuleCaseSensitive>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>62032670</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelPercentOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <Percentage>25</Percentage>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>62042666</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Catentry_A_1In</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>catalog 1 amount</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>ProductLevelValueDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>amount short 1</ShortDescription>
+      <LongDescription>&lt;p&gt;amount long [ENABLE_SITESEG]&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>ProductLevelValueDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <CatalogEntryAttributeRuleCaseSensitive>false</CatalogEntryAttributeRuleCaseSensitive>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelFixedAmountOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <AmountOff>55</AmountOff>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>22020140</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Catentry_A_2In</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>catalog a 2</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>ProductLevelValueDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short a 2</ShortDescription>
+      <LongDescription>&lt;p&gt;long a 2&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>ProductLevelValueDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <CatalogEntryAttributeRuleCaseSensitive>false</CatalogEntryAttributeRuleCaseSensitive>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>26416829-296</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelFixedAmountOffDiscountRange</SubType>
+        <Sequence>1.0</Sequence>
+        <Data>
+          <AmountOff>60</AmountOff>
+          <LowerBound>1</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>26406816-301</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Catentry_Free_Gift</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>free gift</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>ProductLevelBuyXGetYFree</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short free gift</ShortDescription>
+      <LongDescription>&lt;p&gt;long free gift&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>ProductLevelBuyXGetYFreePurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <BaseItemQuantity>1</BaseItemQuantity>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <CatalogEntryAttributeRuleCaseSensitive>false</CatalogEntryAttributeRuleCaseSensitive>
+        <GiftQuantity>1</GiftQuantity>
+      </Data>
+      <GiftCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedGiftCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>00631620615970</Identifier>
+        </Data>
+      </GiftCatalogEntryIdentifier>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>51521531-478</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Order_Free_Gift</AdministrativeName>
+    <PromotionGroupIdentifier>OrderLevelPromotion</PromotionGroupIdentifier>
+    <Comments>order free gift</Comments>
+    <Priority>1</Priority>
+    <Exclusive>1</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>OrderLevelFreeGift</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>1</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short order free</ShortDescription>
+      <LongDescription>&lt;p&gt;long order free&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>OrderLevelFreeGiftPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <chooseBehavior>addToCart</chooseBehavior>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <NoOfItems>1</NoOfItems>
+        <MinimumPurchase>1</MinimumPurchase>
+      </Data>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <GiftCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedGiftCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>00631620615444</Identifier>
+        </Data>
+      </GiftCatalogEntryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Buy_n_Catentry</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments>buy n</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>CategoryLevelValuePrice</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short n</ShortDescription>
+      <LongDescription>&lt;p&gt;long n&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>CategoryLevelValuePricePurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelFixedPriceRange</SubType>
+        <Sequence>3.0</Sequence>
+        <Data>
+          <LowerBound>3</LowerBound>
+          <FixedPrice>100</FixedPrice>
+        </Data>
+      </DiscountRange>
+      <IncludeCategoryIdentifier>
+        <SubType>Identifier_InheritedCategory</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>mens-acc-ck</Identifier>
+        </Data>
+      </IncludeCategoryIdentifier>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Quantity_Based</AdministrativeName>
+    <PromotionGroupIdentifier>ProductLevelPromotion</PromotionGroupIdentifier>
+    <Comments/>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>ProductLevelValueDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2018-12-21 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>0</DisplayLevel>
+  </Base>
+  <Descriptions/>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>ProductLevelValueDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <siteWide>false</siteWide>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <CatalogEntryAttributeRuleCaseSensitive>false</CatalogEntryAttributeRuleCaseSensitive>
+        <MinimumPurchaseType>Quantity</MinimumPurchaseType>
+      </Data>
+      <IncludeCatalogEntryIdentifier>
+        <SubType>Identifier_InheritedCatalogEntry</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <Identifier>26416829</Identifier>
+        </Data>
+      </IncludeCatalogEntryIdentifier>
+      <DiscountRange>
+        <SubType>ProductLevelFixedAmountOffDiscountRange</SubType>
+        <Sequence>5.0</Sequence>
+        <Data>
+          <AmountOff>200</AmountOff>
+          <LowerBound>5</LowerBound>
+        </Data>
+      </DiscountRange>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Amount_Off_Order</AdministrativeName>
+    <PromotionGroupIdentifier>OrderLevelPromotion</PromotionGroupIdentifier>
+    <Comments>amount off order</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>OrderLevelValueDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2019-01-08 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>1</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>amount off order short</ShortDescription>
+      <LongDescription>&lt;p&gt;amount off order long desc&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>OrderLevelValueDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+      </Data>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <DiscountRange>
+        <SubType>OrderLevelFixedAmountOffDiscountRange</SubType>
+        <Sequence>100.0</Sequence>
+        <Data>
+          <AmountOff>20</AmountOff>
+          <LowerBound>100</LowerBound>
+        </Data>
+      </DiscountRange>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Percent_Off_Order</AdministrativeName>
+    <PromotionGroupIdentifier>OrderLevelPromotion</PromotionGroupIdentifier>
+    <Comments>percent off order</Comments>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>OrderLevelPercentDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2019-01-08 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>1</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>percent off short desc</ShortDescription>
+      <LongDescription>&lt;p&gt;percent off long desc&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>OrderLevelPercentDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+      </Data>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+      <DiscountRange>
+        <SubType>OrderLevelPercentOffDiscountRange</SubType>
+        <Sequence>200.0</Sequence>
+        <Data>
+          <Percentage>10</Percentage>
+          <LowerBound>200</LowerBound>
+        </Data>
+      </DiscountRange>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+<PromotionData>
+  <Base>
+    <AdministrativeName>Free_Shipping</AdministrativeName>
+    <PromotionGroupIdentifier>ShippingPromotion</PromotionGroupIdentifier>
+    <Comments/>
+    <Priority>1</Priority>
+    <Exclusive>4</Exclusive>
+    <LastUpdateByLogonId>wcsadmin</LastUpdateByLogonId>
+    <PerOrderLimit>-1</PerOrderLimit>
+    <PerShopperLimit>-1</PerShopperLimit>
+    <ApplicationLimit>-1</ApplicationLimit>
+    <TargetSales>0.00000</TargetSales>
+    <PromotionTypeName>OrderLevelFixedShippingDiscount</PromotionTypeName>
+    <ControlParameter>CMC</ControlParameter>
+    <StartDate>2019-01-09 11:30:00.0</StartDate>
+    <EndDate>9999-12-31 23:59:59.999</EndDate>
+    <DailyStartTime>2000-01-01 00:00:00.001</DailyStartTime>
+    <DailyEndTime>2000-01-01 23:59:59.999</DailyEndTime>
+    <Sunday>1</Sunday>
+    <Monday>1</Monday>
+    <Tuesday>1</Tuesday>
+    <Wednesday>1</Wednesday>
+    <Thursday>1</Thursday>
+    <Friday>1</Friday>
+    <Saturday>1</Saturday>
+    <Type>0</Type>
+    <EffectiveDays>0</EffectiveDays>
+    <ExpirationDays>0</ExpirationDays>
+    <AllowTransfer>0</AllowTransfer>
+    <PromotionCodeRequired>0</PromotionCodeRequired>
+    <PromotionCodeCue/>
+    <DisplayLevel>1</DisplayLevel>
+  </Base>
+  <Descriptions>
+    <Description>
+      <LanguageId>-1</LanguageId>
+      <ShortDescription>short free shipping</ShortDescription>
+      <LongDescription>&lt;p&gt;long free shipping&lt;/p&gt;
+</LongDescription>
+    </Description>
+  </Descriptions>
+  <Elements>
+    <TargetingCondition>
+      <SubType>TargetingCondition</SubType>
+      <Sequence>0.0</Sequence>
+    </TargetingCondition>
+    <PurchaseCondition>
+      <SubType>OrderLevelFixedShippingDiscountPurchaseCondition</SubType>
+      <Sequence>0.0</Sequence>
+      <Data>
+        <FixedCost>0</FixedCost>
+        <AdjustmentType>wholeOrder</AdjustmentType>
+        <Language>-1</Language>
+        <Currency>USD</Currency>
+        <MinimumPurchase>10</MinimumPurchase>
+      </Data>
+      <IncludePaymentTypeIdentifier>
+        <SubType>Identifier_PaymentType</SubType>
+        <Sequence>0.0</Sequence>
+        <Data>
+          <PaymentType>Any</PaymentType>
+        </Data>
+      </IncludePaymentTypeIdentifier>
+      <AnyShipMode>
+        <SubType>Identifier_ShipMode</SubType>
+        <Sequence>0.0</Sequence>
+      </AnyShipMode>
+    </PurchaseCondition>
+  </Elements>
+</PromotionData>
+</Promotions>
